@@ -1,0 +1,81 @@
+@use "@picocss/pico/scss/pico" with ( // Define the root element used to target <header>, <main>, <footer>
+  // with $enable-semantic-container and $enable-responsive-spacings
+  $semantic-root-element: "#root",
+
+  // Enable <header>, <main>, <footer> inside $semantic-root-element as containers
+  $enable-semantic-container: true,
+
+  // Enable .classes
+  $enable-classes: false);
+
+:root {
+  --pico-color: #731544;
+  --pico-margin: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-size: contain;
+  background-position: center top;
+}
+
+.header {
+  text-align: center;
+
+  img.logo {
+    width: 35%;
+  }
+
+  img.fade {
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 100px, rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 100px, rgba(0, 0, 0, 0));
+  }
+
+  nav {
+    align-items: center;
+    justify-content: center;
+
+  }
+}
+
+footer {
+  text-align: center;
+}
+
+body {
+
+  h1 {
+    border-bottom: 1px solid darkgray;
+    padding-bottom: 10px;
+    width: 100%;
+    display: block;
+    --pico-font-family: "Josefin Sans", sans-serif;
+  }
+
+  .videos {
+    text-align: center;
+  }
+
+  .music {
+    text-align: center;
+  }
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.overlay-top {
+  position: absolute;
+  top: 0;
+}
+
+.overlay-bottom {
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
+  bottom: 0;
+}
