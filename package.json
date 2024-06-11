@@ -1,5 +1,6 @@
 {
   "name": "plt-react",
+  "homepage": "https://craigles.github.io/plt",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
