@@ -1,9 +1,9 @@
 export const Header: React.FC = () => {
     return (
         <div className="header image-wrapper">
-            <img src="../background.jpg" className="fade" />
+            <img src="plt/images/background.jpg" className="fade" />
             <div className="overlay-top">
-                <img className="logo" src="../logo.png" />
+                <img className="logo" src="/plt/images/logo.png" />
                 <nav>
                     <ul>
                         <li><a href="#music">Music</a></li>
