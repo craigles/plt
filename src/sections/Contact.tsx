@@ -32,7 +32,7 @@ export const Contact: React.FC = () => {
 
                     fetch("https://formspree.io/f/xnqeonqj", requestOptions)
                         .then(response => {
-                            setFormStatus("done");
+                            setFormStatus("Message sent. We'll get back to you shortly!");
                             setSubmitting(false);
                         });
                 }}
@@ -56,7 +56,7 @@ export const Contact: React.FC = () => {
                         {props.isSubmitting ?
                             <progress /> : 
                             props.submitCount == 0 && <button type="submit">Send</button>}
-                        <p>{formStatus}</p>
+                        <p >{formStatus}</p>
                     </Form>
                 )}
             </Formik>
