@@ -37,6 +37,7 @@ p, form, iframe, div.gigs {
 
 .header {
   text-align: center;
+  margin-bottom: 10px;
 
   img.logo {
     width: 35%;
@@ -60,7 +61,6 @@ p, form, iframe, div.gigs {
 }
 
 div.gigs {
-
   iframe {
     display: block;
     margin-left: auto;
@@ -69,13 +69,8 @@ div.gigs {
 }
 
 div.about p {
-  text-align: center;
   max-width: 800px;
   margin: auto;
-}
-
-div.about p {
-  text-align: center;
   padding-bottom: 20px;
 }
 
@@ -90,6 +85,10 @@ body {
   }
 
   .videos, .music, .about, .gigs {
+    text-align: center;
+  }
+
+  p {
     text-align: center;
   }
 }

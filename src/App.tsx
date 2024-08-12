@@ -9,15 +9,20 @@ function App() {
       <main>
         <Header />
         <Music />
+        <hr />
         <Videos />
+        <hr />
         <Gigs />
+        <hr />
         <About />
+        <hr />
         <Contact />
       </main>
+      <hr />
       <footer>
         <Footer />
       </footer>
-    <MusicPlayer />
+      <MusicPlayer />
     </>
   );
 }
