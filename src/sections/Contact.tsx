@@ -22,7 +22,7 @@ export const Contact: React.FC = () => {
                 }}
                 onSubmit={(
                     values: ContactForm,
-                    { setSubmitting }: FormikHelpers<ContactForm>
+                    { setSubmitting, resetForm }: FormikHelpers<ContactForm>
                 ) => {
                     const requestOptions = {
                         method: "POST",
@@ -34,6 +34,7 @@ export const Contact: React.FC = () => {
                         .then(response => {
                             setFormStatus("Message sent. We'll get back to you shortly!");
                             setSubmitting(false);
+                            resetForm();
                         });
                 }}
             >

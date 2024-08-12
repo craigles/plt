@@ -26,7 +26,7 @@ export const Gigs: React.FC = () => {
                     data-past-events="on"
                     data-past-events-offtour="off"
                     data-remind-me="off"
-                    style={{ display: "none" }}>Gigs
+                    style={{ display: "none" }}>&nbsp;
                 </a>
             </div>
         </>

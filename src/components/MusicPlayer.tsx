@@ -52,23 +52,12 @@ export const MusicPlayer: React.FC = () => {
                     repeatType: false,
                     trackTime: false,
                     trackInfo: true,
-                    artwork: true,
+                    artwork: false,
                     progress: "bar"
                 }}
                 placement={{
                     player: "bottom",
-                    interface: {
-                        itemCustomArea: {
-                            artwork: "row1-1",
-                            trackInfo: "row1-1",
-                            playButton: "row1-2",
-                            progress: "row1-5",
-                            volume: "row1-8",
-                            playList: "row1-9",
-                        }
-                    },
-                    playList: "top",
-
+                    playList: "top"
                 }}
             />
             
