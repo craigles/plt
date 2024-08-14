@@ -1,10 +1,11 @@
 import useExternalScripts from "../hooks/useExternalScripts";
+import styles from './Gigs.module.scss';
 
 export const Gigs: React.FC = () => {
     useExternalScripts("https://widget-app.songkick.com/injector/8267363");
 
     return (
-        <div className="gigs">
+        <div className={styles.gigs}>
             <h1><a id="gigs" href="/#"></a>Gigs</h1>
             <a
                 href="https://www.songkick.com/artists/8267363"

@@ -1,6 +1,8 @@
+import styles from './About.module.scss';
+
 export const About: React.FC = () => {
     return (
-        <div className="about">
+        <div className={styles.about}>
             <h1><a id="about" href="/#"></a>About</h1>
                 <p>Preloved Things are a band of pseudo-intellectual misfits who play a unique brand of alt-art rock. Experimental and always interesting, Preloved Things often challenge their audience’s perception of what music is, and what it can be.</p>
                 <p>In 2024 they will release their debut album.</p>

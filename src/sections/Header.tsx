@@ -1,9 +1,11 @@
+import styles from './Header.module.scss';
+
 export const Header: React.FC = () => {
     return (
-        <div className="header image-wrapper">
-            <img src="/plt/images/background.jpg" className="fade" />
-            <div className="overlay-top">
-                <img className="logo" src="/plt/images/logo.png" />
+        <div className={styles.header}>
+            <img src="/plt/images/background.jpg" className={styles.fade} />
+            <div className={styles.overlayTop}>
+                <img className={styles.logo} src="/plt/images/logo.png" />
                 <nav>
                     <ul>
                         <li><a href="#music">Music</a></li>
@@ -14,7 +16,7 @@ export const Header: React.FC = () => {
                     </ul>
                 </nav>
             </div>
-            <div className="overlay-bottom">
+            <div className={styles.overlayBottom}>
                 <nav>
                     <ul>
                         <li>

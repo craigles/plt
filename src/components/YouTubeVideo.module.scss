@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+
+    iframe {
+        aspect-ratio: 16 / 9;
+        width: 100% !important;
+        max-width: 600px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
