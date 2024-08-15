@@ -1,9 +1,13 @@
 import './App.scss';
-import { About, Contact, Footer, Gigs, Music, Videos } from './sections';
+import { Header, About, Contact, Footer, Gigs, Music, Videos } from './sections';
 import { MusicPlayer } from './components';
-import { Header } from './sections/Header';
+import { useEffect } from 'react';
 
 function App() {
+
+  useEffect(() => {
+
+  }, []);
   return (
     <>
       <main>

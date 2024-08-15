@@ -3,16 +3,8 @@
     margin-bottom: 10px;
     position: relative;
 
-    @media (width <= 1250px) {
-      img.logo {
-        width: 35%;
-      }
-    }
-
-    @media (width > 1250px) {
-      img.logo {
-        width: 35%;
-      }
+    img.logo {
+      width: 35%;
     }
   
     img.fade {

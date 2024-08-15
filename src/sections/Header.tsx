@@ -1,11 +1,12 @@
+import { LazyImage } from '../components/LazyImage';
 import styles from './Header.module.scss';
 
 export const Header: React.FC = () => {
     return (
         <div className={styles.header}>
-            <img src="/plt/images/background.jpg" className={styles.fade} />
+            <LazyImage src="/plt/images/background.jpg" className={styles.fade} />
             <div className={styles.overlayTop}>
-                <img className={styles.logo} src="/plt/images/logo.png" />
+                <LazyImage src="/plt/images/logo.png" className={styles.logo} />
                 <nav>
                     <ul>
                         <li><a href="#music">Music</a></li>
