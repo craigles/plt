@@ -1,5 +1,6 @@
 import './App.scss';
-import { Header, About, Contact, Footer, Gigs, Music, Videos } from './sections';
+import "react-image-gallery/styles/scss/image-gallery.scss";
+import { Header, About, Contact, Footer, Gigs, Music, Videos, Photos } from './sections';
 import { MusicPlayer } from './components';
 import { useEffect } from 'react';
 
@@ -18,6 +19,8 @@ function App() {
         <hr />
         <Gigs />
         <hr />
+        <Photos />
+        <hr />
         <About />
         <hr />
         <Contact />
@@ -26,7 +29,6 @@ function App() {
       <footer>
         <Footer />
       </footer>
-      <MusicPlayer />
     </>
   );
 }

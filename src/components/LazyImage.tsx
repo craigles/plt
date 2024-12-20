@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 interface ImageProps {
-    className: string,
+    className?: string,
     src: string
 }
 
@@ -11,7 +11,7 @@ export const LazyImage: React.FC<ImageProps> = ({src, className}) => {
     useEffect(() => {
         const image = new Image();
         image.src = src;
-        image.className = className;
+        image.className = className ?? "";
         image.onload = () => setImageLoaded(true);
     }, []);
 
