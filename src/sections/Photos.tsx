@@ -17,8 +17,8 @@ export const Photos: React.FC = () => {
                 showFullscreenButton={false}
                 slideInterval={10000}
                 autoPlay={true}
-                showNav={false}
-                
+                showNav={true}
+
             />
         </div>
     );
