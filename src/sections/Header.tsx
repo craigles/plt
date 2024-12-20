@@ -4,9 +4,9 @@ import styles from './Header.module.scss';
 export const Header: React.FC = () => {
     return (
         <div className={styles.header}>
-            <LazyImage src="/plt/images/background-2.jpg" className={styles.fade} />
+            <LazyImage src="images/background-2.jpg" className={styles.fade} />
             <div className={styles.overlayTop}>
-                <LazyImage src="/plt/images/logo-2.png" className={styles.logo} />
+                <LazyImage src="images/logo-2.png" className={styles.logo} />
             </div>
             <div className={styles.overlayBottom}>
                 <nav>

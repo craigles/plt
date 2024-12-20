@@ -22,7 +22,7 @@ html {
     background-size: contain;
     background-position: center top;
     text-align: center;
-  
+
     h1 {
       padding-top: 10px;
       padding-bottom: 10px;
@@ -31,7 +31,8 @@ html {
       text-align: center;
     }
 
-    [role="button"], [role="button"]:hover {
+    [role="button"],
+    [role="button"]:hover {
       --pico-background-color: none;
       --pico-border-color: none;
       --pico-primary-background: none;
@@ -40,13 +41,15 @@ html {
   }
 }
 
-#root > main {
-    margin-left: 0;
-    margin-right: 0;
-    max-width: 100%;
+#root>main {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
 }
 
-p, form, iframe {
+p,
+form,
+iframe {
   max-width: 1000px;
   margin: auto;
 }
@@ -54,6 +57,14 @@ p, form, iframe {
 form {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.image-gallery-slide img {
+  max-width: 960px;
+  height: auto;
+  object-fit: cover;
+  overflow: hidden;
+  object-position: center center;
 }
 
 main {
