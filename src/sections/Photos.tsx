@@ -4,7 +4,6 @@ const photos = [
     { original: "images/photos/DSC_2457.JPG" },
     { original: "images/photos/DSC_2553.JPG" },
     { original: "images/photos/DSC_2613.JPG" },
-    { original: "images/photos/DSC_2613.JPG" },
     { original: "images/photos/DSC_2687.JPG" },
 ];
 
