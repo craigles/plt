@@ -3,7 +3,7 @@ export const Footer: React.FC = () => {
     return (
         <div>
             <p>
-                <small>Preloved Things 2024</small>
+                <small>Preloved Things {new Date().getFullYear()}</small>
             </p>
         </div>
     );
