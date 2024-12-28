@@ -11,11 +11,12 @@ export const Header: React.FC = () => {
             <div className={styles.overlayBottom}>
                 <nav>
                     <ul>
-                        <li><a href="#music">Music</a></li>
-                        <li><a href="#videos">Videos</a></li>
-                        <li><a href="#gigs">Gigs</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="/#music">Music</a></li>
+                        <li><a href="/#videos">Videos</a></li>
+                        <li><a href="/#gigs">Gigs</a></li>
+                        <li><a href="/#about">About</a></li>
+                        <li><a href="/#contact">Contact</a></li>
+                        <li><a href="/store">Store</a></li>
                     </ul>
                 </nav>
                 <nav>
