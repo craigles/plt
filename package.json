@@ -30,7 +30,8 @@
     "yup": "^1.4.0"
   },
   "scripts": {
-    "start": "react-scripts start; node src/server.js;",
+    "start": "react-scripts start & npm run startserver",
+    "startserver": "node src/server.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
