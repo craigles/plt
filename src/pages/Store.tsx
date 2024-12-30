@@ -13,7 +13,7 @@ const ProductDisplay = () => (
         <h5>$30.00</h5>
       </div>
     </div>
-    <form action={`${window.location.protocol}//${window.location.hostname}:4242/create-checkout-session`} method="POST">
+    <form action={`https://plt-cnh3fzhghnesfsby.australiaeast-01.azurewebsites.net:4242/create-checkout-session`} method="POST">
       <button type="submit">
         Checkout
       </button>

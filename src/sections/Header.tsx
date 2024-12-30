@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { LazyImage } from '../components/LazyImage';
 import styles from './Header.module.scss';
 import { HashLink } from 'react-router-hash-link';
