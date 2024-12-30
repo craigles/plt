@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "route": "/store",
+      "methods": [
+        "get"
+      ],
+      "redirect": "/index.html",
+      "statusCode": 301
+    }
+  ]
+}
