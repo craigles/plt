@@ -22,6 +22,7 @@
     "react-modern-audio-player": "^1.4.0-rc.2",
     "react-router": "^6.22.3",
     "react-router-dom": "^6.28.1",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "sass": "^1.75.0",
     "stripe": "^17.5.0",
@@ -33,7 +34,6 @@
     "start": "react-scripts start",
     "startserver": "node src/server.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -58,6 +58,6 @@
   },
   "devDependencies": {
     "@types/react-image-gallery": "^1.2.4",
-    "gh-pages": "^6.1.1"
+    "@types/react-router-hash-link": "^2.4.9"
   }
 }

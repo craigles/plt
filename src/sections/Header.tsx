@@ -1,5 +1,7 @@
+import { Link } from 'react-router-dom';
 import { LazyImage } from '../components/LazyImage';
 import styles from './Header.module.scss';
+import { HashLink } from 'react-router-hash-link';
 
 export const Header: React.FC = () => {
     return (
@@ -11,12 +13,12 @@ export const Header: React.FC = () => {
             <div className={styles.overlayBottom}>
                 <nav>
                     <ul>
-                        <li><a href="/#music">Music</a></li>
-                        <li><a href="/#videos">Videos</a></li>
-                        <li><a href="/#gigs">Gigs</a></li>
-                        <li><a href="/#about">About</a></li>
-                        <li><a href="/#contact">Contact</a></li>
-                        <li><a href="/store">Store</a></li>
+                        <li><HashLink to="/#music">Music</HashLink></li>
+                        <li><HashLink to="/#videos">Videos</HashLink></li>
+                        <li><HashLink to="/#gigs">Gigs</HashLink></li>
+                        <li><HashLink to="/#about">About</HashLink></li>
+                        <li><HashLink to="/#contact">Contact</HashLink></li>
+                        <li><HashLink to="/store#store">Store</HashLink></li>
                     </ul>
                 </nav>
                 <nav>

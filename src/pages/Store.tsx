@@ -9,8 +9,8 @@ const ProductDisplay = () => (
         alt="The cover of Stubborn Attachments"
       />
       <div className="description">
-      <h3>Shirt</h3>
-      <h5>$30.00</h5>
+        <h3>Shirt</h3>
+        <h5>$30.00</h5>
       </div>
     </div>
     <form action={`${window.location.protocol}//${window.location.hostname}:4242/create-checkout-session`} method="POST">
@@ -48,6 +48,9 @@ export const Store: React.FC = () => {
   return message ? (
     <Message message={message} />
   ) : (
-    <ProductDisplay />
+    <>
+      <h1><a id="store" href="/#"></a>Store</h1>
+      <ProductDisplay />
+    </>
   );
 }
