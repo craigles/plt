@@ -30,7 +30,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "startserver": "node src/server.js",
     "predeploy": "npm run build",
     "build": "react-scripts build",
     "buildserver": "react-scripts build",

@@ -5,6 +5,10 @@ name: Build and deploy Node.js app to Azure Web App - plt
 env: 
   CI: false
 
+defaults:
+  run:
+    working-directory: ./src/server
+
 on:
   push:
     branches:
@@ -31,7 +35,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: node-app
-          path: src/server
+          path: /
 
   deploy:
     runs-on: ubuntu-latest
