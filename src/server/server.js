@@ -23,4 +23,9 @@ app.post('/create-checkout-session', async (req, res) => {
     res.redirect(303, session.url);
 });
 
+app.get('/', (req, res) => {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+    res.end('Hello World!');
+});
+
 app.listen(4242, () => console.log('Running on port 4242'));

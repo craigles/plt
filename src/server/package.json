@@ -1,0 +1,15 @@
+{
+    "name": "plt-store",
+    "version": "1.0.0",
+    "description": "PLT Store",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "Craig Curtis",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.21.2",
+        "stripe": "^17.5.0"
+    }
+}
