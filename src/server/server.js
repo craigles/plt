@@ -3,7 +3,7 @@ const stripe = require('stripe')('sk_test_51Qa6aS4CevbvwTZrB2rOtSCrIOdPB6fDLAoJJ
 const express = require('express');
 const app = express();
 app.use(express.static('public'));
-app.set('port', process.env.port || 3000);
+app.set('port', process.env.PORT || 3000);
 
 const YOUR_DOMAIN = 'http://localhost:3000/store';
 
