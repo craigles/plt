@@ -3,9 +3,9 @@ const stripe = require('stripe')('sk_test_51Qa6aS4CevbvwTZrB2rOtSCrIOdPB6fDLAoJJ
 const express = require('express');
 const app = express();
 app.use(express.static('public'));
+app.set('port', process.env.port || 3000);
 
 const YOUR_DOMAIN = 'http://localhost:3000/store';
-const port = process.env.port || 3000;
 
 app.post('/create-checkout-session', async (req, res) => {
     const session = await stripe.checkout.sessions.create({
@@ -29,4 +29,4 @@ app.get('/', (req, res) => {
     res.end('Hello World!');
 });
 
-app.listen(port, () => console.log('Running on port 8080'));
+app.listen(app.get('port'), () => console.log('Running on port ' + app.get('port')));
