@@ -6,9 +6,9 @@ export const Videos: React.FC = () => {
             <h1><a id="videos" href="/#"></a>Videos</h1>
             <YouTubeVideo src="https://www.youtube.com/embed/dLys1Mm2yBY?si=67S8CX36ZU9dPBUj" />
             <hr />
-            <YouTubeVideo src="https://www.youtube.com/embed/kxSmbj-Bqe8?si=HUNItWttpNiGDGw6" />
+            <YouTubeVideo src="https://www.youtube.com/embed/3upqlxFrSBE?si=EpBFL4AWkesE7mjZ" />
             <hr />
-            <YouTubeVideo src="https://www.youtube.com/embed/WzBmMu9CKrc?si=4LLAfse1SvLxgR3v" />
+            <YouTubeVideo src="https://www.youtube.com/embed/kxSmbj-Bqe8?si=HUNItWttpNiGDGw6" />
         </div>
     );
 }
