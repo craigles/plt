@@ -17,7 +17,6 @@ export const Header: React.FC = () => {
                         <li><HashLink to="/#gigs">Gigs</HashLink></li>
                         <li><HashLink to="/#about">About</HashLink></li>
                         <li><HashLink to="/#contact">Contact</HashLink></li>
-                        <li><HashLink to="/store#store">Store</HashLink></li>
                     </ul>
                 </nav>
                 <nav>
