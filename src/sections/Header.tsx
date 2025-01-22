@@ -7,7 +7,7 @@ export const Header: React.FC = () => {
         <div className={styles.header}>
             <LazyImage src="images/background-2.jpg" className={styles.fade} />
             <div className={styles.overlayTop}>
-                <LazyImage src="images/logo-2.png" className={styles.logo} />
+                <LazyImage src="images/logo-white.png" className={styles.logo} />
             </div>
             <div className={styles.overlayBottom}>
                 <nav>
