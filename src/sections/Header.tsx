@@ -22,6 +22,11 @@ export const Header: React.FC = () => {
                 <nav>
                     <ul>
                         <li>
+                            <a href="https://instagram.com/prelovedthingsband" title="Instagram">
+                                <span className={`fa-brands fa-instagram fa-xl ${styles.icon}`}></span>
+                            </a>
+                        </li>
+                        <li>
                             <a href="https://facebook.com/prelovedthings" title="Facebook">
                                 <span className={`fa-brands fa-facebook fa-xl ${styles.icon}`}></span>
                             </a>
