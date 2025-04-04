@@ -7,3 +7,4 @@ export * from "./Gigs";
 export * from "./Music";
 export * from "./Videos";
 export * from "./Photos";
+export * from "./Splash";

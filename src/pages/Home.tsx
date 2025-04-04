@@ -1,8 +1,10 @@
-import { About, Contact, Gigs, Music, Videos, Photos } from '../sections';
+import { About, Contact, Gigs, Music, Videos, Photos, Splash } from '../sections';
 
 export const Home: React.FC = () => {
     return (
         <>
+            <Splash />
+            <hr />
             <Music />
             <hr />
             <Videos />
